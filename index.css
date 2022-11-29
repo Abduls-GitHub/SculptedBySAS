@@ -1,0 +1,181 @@
+:root {
+    --egg: #F0EBD5;
+    --white: rgba(255, 255, 255);
+    --whitesmoke: whitesmoke;
+    --border-outline-light: #D5D5F0;
+    --button-colour: #F0E1C9;
+    --button-new: #7171A3;
+    --nav-bar: #D5D5F0;
+    --background: #F7F7F7;
+    --Montserrat: 'Montserrat', sans-serif;
+}
+
+
+body {
+    font-family: var(--Montserrat);
+    margin: 0;
+    background: var(--background);
+}
+
+.social-media {
+    position: absolute;
+    top: 35px;
+    right: 170px;
+}
+
+.top-logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    height: 150px;
+}
+
+.socials {
+    display: flex;
+    list-style: none;
+    margin-top: 0;
+}
+
+.nav-bar {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--nav-bar);
+    overflow: hidden;
+    height: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-heading {
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 0 100px 0 100px;
+    align-items: center;
+    display: inline-flex;
+
+}
+
+.nav-heading a {
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
+#active-a {
+    color: var(--border-outline-light);
+    text-decoration: none;
+}
+
+#active {
+    height: 46px;
+    color: var(--white);
+    background-color: var(--button-new);
+    border: 3px solid var(--button-new);
+}
+
+.nav-heading .active {
+    background: var(--white);
+    border: 5px solid var(--button-colour);
+}
+
+.nav-heading :hover {
+    height: 20px;
+    font-weight: 900;
+    width: 100%;
+    transition-duration: 0.3s;
+    transform: translateY(-3px);
+    color: var(--button-new);
+}
+
+.pic {
+    opacity: 0.9;
+    width: 25px;
+    height: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    cursor: pointer;
+}
+
+.card-divs{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    background: var(--background);
+}
+
+.card {
+    display: inline-block;
+    transition: 0.5s;
+    border-radius: 5px; /* 5px rounded corners */
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    margin-right: 15px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card-images:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: translateY(-3px);
+    transition-duration: 0.3s;
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px;
+    width: 400px;
+    background: var(--background);
+}
+
+.container p{
+    color: var(--button-new);
+    font-weight: 900;
+    font-size: 35px;
+    margin: 10px;
+}
+
+.card-images {
+    width: 390px;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+.button a{
+    text-decoration: none;
+    border: 2px solid var(--button-new);
+    border-radius: 30px;
+    font-size: 20px;
+    color: black;
+    padding: 0 30px 0 30px;
+    background: var(--background);
+    cursor: pointer;
+}
+
+.button a:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: translateY(-1px);
+    background-color: var(--button-new);
+    transition-duration: 0.3s;
+    color: var(--nav-bar);
+}
+
+#highlight-button{
+    background-color: var(--button-new) ;
+    color: var(--nav-bar);
+}

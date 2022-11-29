@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link rel="stylesheet" href="./Contact.css">
+
+<link rel="icon" type="image/x-icon" href="Assets/Logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto&display=swap"
+      rel="stylesheet">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SBS | Contact Us | Nails</title>
+</head>
+
+<!-- Social Media Icon Section -->
+
+<body>
+<div id="top" class="social-media">
+  <ul class="socials">
+    <li><a href="https://instagram.com/sculptedbysaskia?igshid=YmMyMTA2M2Y=" target="_blank">
+      <img class="pic" src="./Assets/SocialMediaIcons/Insta.png" alt="Instagram"></a></li>
+    <li><a href="https://wa.me/0678547995" target="_blank">
+      <img class="pic" src="./Assets/SocialMediaIcons/Whatsapp.png" alt="Whatsapp"></a></li>
+    <li><a href="mailto: SBS@gmail.com" target="_blank">
+      <img class="pic" src="./Assets/SocialMediaIcons/Email.png" alt="Email"></a></li>
+    <li><a href="https://www.tiktok.com/@theycallmesas_?_t=8WlmoGwAyYA&_r=1" target="_blank">
+      <img class="pic" src="./Assets/SocialMediaIcons/Tiktok.png" alt="Tiktok"></a></li>
+  </ul>
+</div>
+
+<!--Main Logo -->
+
+<div class="top-logo">
+  <img id="logo" onclick="window.location.href='index.html'" src="Assets/Logo.png" alt="Sculpted By SAS">
+</div>
+
+<!-- NavBar for navigating website -->
+
+<div class="nav-bar">
+  <div class="top-nav">
+    <div class="nav-heading"><a href="index.html">Home</a></div>
+    <div class="nav-heading"><a href="Pricing.html">Pricing</a></div>
+    <div class="nav-heading"><a href="Gallery.html">Gallery</a></div>
+    <div class="nav-heading" id="active"><a  id="active-a" href="Contact.html">Contact Us</a></div>
+  </div>
+</div>
+
+<div class="contact-form">
+  <div class="container">
+    <div class="heading">
+      <h1>Contact Us</h1>
+    </div>
+    <br>
+    <form class="form" id="form">
+      <div class="form-control">
+        <label>
+          <h3>Name: </h3>
+        </label>
+        <input type="text" placeholder="Enter your name here" id="first-name">
+        <small>Error message</small>
+      </div>
+      <div class="form-control">
+        <label>
+          <h3>Surname: </h3>
+        </label>
+        <input type="text" placeholder="Enter your surname here" id="surname">
+        <small>Error message</small>
+      </div>
+      <div class="form-control">
+        <label>
+          <h3>Email: </h3>
+        </label>
+        <input type="text" placeholder="Enter your email address here" id="email">
+        <small>Error message</small>
+      </div>
+      <div>
+        <br>
+        <h3>Message: </h3>
+        <textarea class="text-box" id="messageBox" rows="10"
+                  placeholder="Please enter your message here..."></textarea>
+      </div>
+      <button class="submit-button" id="sub-button">Submit</button>
+      <button class="refresh-button" id="refresh-button">
+        Clear</button>
+    </form>
+    <div class="follow-container">
+      <h3>
+        Connect with us
+      </h3>
+      <ul id="follow-us" class="follow-socials">
+        <li><a href="https://instagram.com/sculptedbysaskia?igshid=YmMyMTA2M2Y=" target="_blank">
+          <img class="pic" src="./Assets/SocialMediaIcons/Insta.png" alt="Instagram"></a></li>
+        <li><a href="https://wa.me/0678547995" target="_blank">
+          <img class="pic" src="./Assets/SocialMediaIcons/Whatsapp.png" alt="Whatsapp"></a></li>
+        <li><a href="https://www.tiktok.com/@theycallmesas_?_t=8WlmoGwAyYA&_r=1" target="_blank">
+          <img class="pic" src="./Assets/SocialMediaIcons/Tiktok.png" alt="Tiktok"></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="image-container">
+  <div class="contact-details">
+    <h1>Contact Details</h1>
+    <br>
+    <h3>Phone</h3>
+    <p>067 854 7995</p>
+    <h3>Email</h3>
+    <p>SBS@gmail.com</p>
+    <h2>Visit Us</h2>
+    <br>
+    <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.2591333262376!2d18.509136114784383!3d-34.037223335250346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc439ba2929549%3A0x21226b74af2022c9!2sBeauty%20network!5e0!3m2!1sen!2sza!4v1666773819829!5m2!1sen!2sza"
+            width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    <br>
+
+  </div>
+</div>
+
+<div id="the-modal" class="modal">
+  <div id="modal-text-box" class="modal-content">
+    <p name="text-in-modal" id="modal-text">Added Text in here</p>
+  </div>
+</div>
+
+</body>
+
+<script src="./Modals.js"></script>
+<script src="./FormAPIFunction.js"></script>
+<script src="./FormValidation.js"></script>
+<!--<script src="https://unpkg.com/axios/dist/axios.min.js"></script>-->
+
+
+</html>

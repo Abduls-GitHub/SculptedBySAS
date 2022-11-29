@@ -1,0 +1,90 @@
+:root {
+    --egg: #F0EBD5;
+    --white: rgba(255, 255, 255);
+    --whitesmoke: whitesmoke;
+    --border-outline-light: #D5D5F0;
+    --button-colour: #F0E1C9;
+    --button-new: #7171A3;
+    --nav-bar: #D5D5F0;
+    --Montserrat: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: var(--Montserrat);
+    background: #f7f7f7;
+    margin: 0;
+}
+
+.back-buttton-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+
+.back{
+    width: 50px;
+    height: 30px;
+    padding: 20px;
+}
+
+.logo-container{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.title {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: var(--button-new);
+}
+
+#prices {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 430px;
+    height: 430px;
+    background: white;
+    border: solid 2px var(--button-new);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+    transition-duration: 0.5s;
+}
+
+.heading-container{
+    text-align: center;
+}
+
+.text-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.categories {
+    color: var(--button-new);
+}
