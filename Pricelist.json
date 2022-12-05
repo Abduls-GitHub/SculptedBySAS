@@ -1,0 +1,321 @@
+[
+  {
+    "heading": "Sculptured Acrylic",
+    "items": [
+      {
+        "name": "Sculptured Acrylic - Short",
+        "price": "R300"
+      },
+      {
+        "name": "Sculptured Acrylic - Medium",
+        "price": "R340"
+      },
+      {
+        "name": "Sculptured Acrylic - Long",
+        "price": "R380"
+      },
+      {
+        "name": "Sculptured Acrylic - X-Long",
+        "price": "R410"
+      }
+    ]
+  },
+
+  {
+    "heading": "Ombre Sculptured Acrylic",
+    "items": [
+      {
+        "name": "Ombre Sculptured Acrylic - Short",
+        "price": "R360"
+      },
+      {
+        "name": "Ombre Sculptured Acrylic - Medium",
+        "price": "R400"
+      },
+      {
+        "name": "Ombre Sculptured Acrylic - Long",
+        "price": "R440"
+      },
+      {
+        "name": "Ombre Sculptured Acrylic - X-Long",
+        "price": "R470"
+      }
+    ]
+  },
+
+  {
+    "heading": "Overlays",
+    "items": [
+      {
+        "name": "Supreme/Rubber Base Gel Overlay",
+        "price": "R280"
+      },
+      {
+        "name": "Acrylic Overlay Without Gel",
+        "price": "R280"
+      }
+    ]
+  },
+
+  {
+    "heading": "Encapsulated Acrylic",
+    "items": [
+      {
+        "name": "Full Set Encapsulated Acrylic - Medium",
+        "price": "R510"
+      },
+      {
+        "name": "Full Set Encapsulated Acrylic - Long",
+        "price": "R570"
+      }
+    ]
+  },
+
+  {
+    "heading": "Nail Fills",
+    "items": [
+      {
+        "name": "Nail Fill 2 Weeks",
+        "price": "R220"
+      },
+      {
+        "name": "Nail Fill 3 Weeks",
+        "price": "R260"
+      },
+      {
+        "name": "Nail Fill 4 Weeks",
+        "price": "R300"
+      }
+    ]
+  },
+
+  {
+    "heading": "Gel Polish",
+    "items": [
+      {
+        "name": "Gel Polish - Hands",
+        "price": "R250"
+      },
+      {
+        "name": "Gel Polish - Feet",
+        "price": "R220"
+      },
+      {
+        "name": "Gel Polish - Combo Hands & Feet",
+        "price": "R400"
+      }
+    ]
+  },
+
+  {
+    "heading": "Nail Art",
+    "items": [
+      {
+        "name": "1 x Nail Art",
+        "price": "R18"
+      },
+      {
+        "name": "2 x Nail Art",
+        "price": "R36"
+      },
+      {
+        "name": "4 x Nail Art",
+        "price": "R72"
+      },
+      {
+        "name": "6 x Nail Art",
+        "price": "R108"
+      },
+      {
+        "name": "8 X Nail Art",
+        "price": "R144"
+      },
+      {
+        "name": "Full Set Nail Art",
+        "price": "R180"
+      },
+      {
+        "name": "Add French Gel",
+        "price": "R85"
+      }
+    ]
+  },
+
+  {
+    "heading": "Add Gems",
+    "items": [
+      {
+        "name": "Add Gems Per Nail",
+        "price": "R8.50"
+      },
+      {
+        "name": "2 x Gem Nails",
+        "price": "R17"
+      },
+      {
+        "name": "4 x Gem Nails",
+        "price": "R34"
+      },
+      {
+        "name": "6 x Gem Nails",
+        "price": "R51"
+      },
+      {
+        "name": "8 x Gem Nails",
+        "price": "R68"
+      },
+      {
+        "name": "Full Set Gem Nails",
+        "price": "R85"
+      }
+    ]
+  },
+
+  {
+    "heading": "Encapsulations",
+    "items": [
+      {
+        "name": "2 x Encapsulations",
+        "price": "R60"
+      },
+      {
+        "name": "4 x Encapsulations",
+        "price": "R120"
+      },
+      {
+        "name": "6 x Encapsulations",
+        "price": "R180"
+      }
+    ]
+  },
+
+  {
+    "heading": "Holographic/Chrome Powder",
+    "items": [
+      {
+        "name": "2 x Holographic/Chrome Powder",
+        "price": "R17"
+      },
+      {
+        "name": "4 x Holographic/Chrome Powder",
+        "price": "R34"
+      },
+      {
+        "name": "6 x Holographic/Chrome Powder",
+        "price": "R51"
+      },
+      {
+        "name": "8 x Holographic/Chrome Powder",
+        "price": "R68"
+      },
+      {
+        "name": "Full Set Holographic/Chrome Powder",
+        "price": "R85"
+      },
+      {
+        "name": "Add Gel Colour",
+        "price": "R90"
+      }
+    ]
+  },
+
+  {
+    "heading": "Metallic Foil",
+    "items": [
+      {
+        "name": "2 x Metallic Foil",
+        "price": "R17"
+      },
+      {
+        "name": "4 x Metallic Foil",
+        "price": "R34"
+      },
+      {
+        "name": "6 x Metallic Foil",
+        "price": "R51"
+      },
+      {
+        "name": "8 x Metallic Foil",
+        "price": "R68"
+      },
+      {
+        "name": "Full Set Metallic Foil",
+        "price": "R85"
+      }
+    ]
+  },
+
+  {
+    "heading": "Nail Fix",
+    "items": [
+      {
+        "name": "1 x Nail Fix",
+        "price": "R35"
+      },
+      {
+        "name": "2 x Nail Fix",
+        "price": "R70"
+      },
+      {
+        "name": "3 x Nail Fix",
+        "price": "R105"
+      },
+      {
+        "name": "4 x Nail Fix",
+        "price": "R140"
+      },
+      {
+        "name": "5 x Nail Fix",
+        "price": "R175"
+      }
+    ]
+  },
+
+  {
+    "heading": "Manicure/Pedicures",
+    "items": [
+      {
+        "name": "Mini Mani",
+        "price": "R180"
+      },
+      {
+        "name": "Mini Pedi",
+        "price": "R200"
+      },
+      {
+        "name": "Mini Mani & Pedi combo",
+        "price": "R350"
+      },
+      {
+        "name": "Spa Mani",
+        "price": "R240"
+      },
+      {
+        "name": "Spa Pedi",
+        "price": "R260"
+      },
+      {
+        "name": "Spa Mani & Pedi Combo",
+        "price": "R450"
+      }
+    ]
+  },
+
+  {
+    "heading": "Soak Offs",
+    "items": [
+      {
+        "name": "Soak Off Gel Hands OR Toes",
+        "price": "R120"
+      },
+      {
+        "name": "Soak Off gel Hands AND Toes",
+        "price": "R220"
+      },
+      {
+        "name": "soak off Acrylic/Supreme Base",
+        "price": "R180"
+      }
+    ]
+  }
+]
