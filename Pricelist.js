@@ -1,12 +1,12 @@
 const file = "https://my-sbs-plist-bucket.s3.amazonaws.com/SbsPricelist.json"
 
-fetchJson = async () => {
+const fetchJson = async () => {
     const response = await fetch(file);
     const data = await response.json();
 
     const outerContainer = document.getElementById("prices");
 
-    for (let i = 0; i < data.length; i++) {
+    for (let category of data) {
         const cardContainer = document.createElement("div");
         cardContainer.classList.add("card");
 
@@ -14,7 +14,7 @@ fetchJson = async () => {
         headingContainer.classList.add("heading-container");
 
         // Loops through headings
-        heading = data[i].heading;
+        heading = category.heading;
 
         // Creates h1 elements for headings in HTML
         const headingElement = document.createElement("h1");
@@ -27,17 +27,13 @@ fetchJson = async () => {
         headingElement.classList.add("categories");
 
         const textContainer = document.createElement("div");
-        textContainer.classList.add("text-container")
+        textContainer.classList.add("text-container");
 
-        for (let j = 0; j < data[i].items.length; j++) {
-
-            // Loops through data in items array
-            item = data[i].items[j].name;
-            price = data[i].items[j].price;
+        for (let item of category.items) {
 
             //Creates p elements for data in HTML
             const paragraphElement = document.createElement("p");
-            paragraphElement.innerText = item + " " + " | " + " " + price;
+            paragraphElement.innerText = item.name + " " + " | " + " " + item.price;
             textContainer.appendChild(paragraphElement);
 
             paragraphElement.classList.add("services");
